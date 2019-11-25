@@ -26,6 +26,7 @@ module.exports = {
     rules: [
       {
         test: /\.s[ac]ss$/i,
+        exclude: /node_modules/,
         use: [
           'style-loader',
           'css-loader',
@@ -34,10 +35,16 @@ module.exports = {
       },
       {
         test: /\.(png|svg|jpg|gif)$/,
+        exclude: /node_modules/,
         use: [
           'file-loader',
         ],
       },
+      {
+        test: /\.html$/,
+        exclude: /node_modules/,
+        loader: 'nunjucks-loader'
+      }
     ],
   },
 };

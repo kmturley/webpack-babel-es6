@@ -1,7 +1,7 @@
 {
   "name": "webpack-babel-es6",
   "version": "1.0.0",
-  "description": "Example project using Webpack Babel and ES6",
+  "description": "Example project using Webpack Babel and ES6 Classes",
   "main": "index.js",
   "scripts": {
     "build": "webpack --config webpack.config.js",
@@ -12,7 +12,8 @@
   "keywords": [
     "Webpack",
     "Babel",
-    "ES6"
+    "ES6",
+    "Classes"
   ],
   "author": "kmturley",
   "license": "ISC",
@@ -24,6 +25,8 @@
     "css-loader": "^3.2.0",
     "file-loader": "^4.3.0",
     "node-sass": "^4.13.0",
+    "nunjucks": "^3.2.0",
+    "nunjucks-loader": "^3.0.0",
     "sass-loader": "^8.0.0",
     "style-loader": "^1.0.0",
     "webpack": "^4.41.2",

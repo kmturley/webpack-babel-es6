@@ -5,6 +5,8 @@ Example modern JavaScript project using:
 * Webpack 4.41.x
 * Babel 7.7.x
 * Scss 4.13.x
+* Nunjucks 3.2.x
+* ES6 Classes
 
 
 ## Installation

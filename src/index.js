@@ -1,3 +1,3 @@
-import './index.scss';
+import { Example } from './components/example';
 
-console.log('index.js');
+const example = new Example();
