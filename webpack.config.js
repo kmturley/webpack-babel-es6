@@ -25,6 +25,17 @@ module.exports = {
   module: {
     rules: [
       {
+        test: /\.m?js$/,
+        exclude: /(node_modules|bower_components)/,
+        use: {
+          loader: 'babel-loader',
+          options: {
+            plugins: ['@babel/plugin-proposal-class-properties'],
+            presets: ['@babel/preset-env']
+          }
+        }
+      },
+      {
         test: /\.s[ac]ss$/i,
         exclude: /node_modules/,
         use: [
