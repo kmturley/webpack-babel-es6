@@ -26,7 +26,7 @@
     "copy-webpack-plugin": "^5.0.5",
     "css-loader": "^3.2.0",
     "file-loader": "^4.3.0",
-    "node-sass": "^4.13.0",
+    "node-sass": "^4.13.1",
     "nunjucks": "^3.2.0",
     "nunjucks-loader": "^3.0.0",
     "sass-loader": "^8.0.0",
